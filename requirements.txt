@@ -1,0 +1,16 @@
+streamlit
+requests
+numpy
+ultralytics
+datetime
+pandas
+opencv-python
+google-genai
+deep-sort-realtime
+--find-links https://download.pytorch.org/whl/cu118
+torch
+torchvision
+torchaudio
+dotenv
+ratelimit
+kaggle

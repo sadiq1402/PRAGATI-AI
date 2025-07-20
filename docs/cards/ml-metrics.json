@@ -1,0 +1,45 @@
+{
+  "model_name": "flower_bee_detector",
+  "version": "1.0",
+  "dataset": "custom insect/flower dataset",
+  "metrics": {
+    "precision": 0.96,
+    "recall": 0.98,
+    "f1_score": 0.96,
+    "mAP50": 0.96,
+    "mAP50-95": 0.81,
+    "train_loss": {
+      "box_loss": 0.0055,
+      "cls_loss": 0.5,
+      "dfl_loss": 1.1
+    },
+    "val_loss": {
+      "box_loss": 0.0055,
+      "cls_loss": 0.4,
+      "dfl_loss": 1.1
+    }
+  },
+  "evaluation": {
+    "confidence_threshold": 0.489,
+    "best_precision_at_confidence": 0.96,
+    "best_f1_at_confidence": 0.96
+  },
+  "confusion_matrix": {
+    "flower": {
+      "predicted_flower": 689,
+      "predicted_insect": 3,
+      "predicted_background": 39
+    },
+    "insect": {
+      "predicted_flower": 615,
+      "predicted_insect": 33,
+      "predicted_background": 0
+    },
+    "background": {
+      "predicted_flower": 14,
+      "predicted_insect": 14,
+      "predicted_background": 0
+    }
+  },
+  "comments": "Model shows strong performance across both classes with minimal confusion. Slight misclassification between flower and insect likely due to overlapping features. Overall, excellent generalization and confidence separation."
+}
