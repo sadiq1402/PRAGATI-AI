@@ -1,4 +1,3 @@
-```
 #!/bin/bash
 
 ###############################################################################
@@ -60,5 +59,3 @@ echo "📦 Downloading dataset: $DATASET"
 kaggle datasets download -d "$DATASET" -p "$OUT_DIR" --unzip
 
 echo "✅ Download complete! Files are saved in: $OUT_DIR"
-
-```
