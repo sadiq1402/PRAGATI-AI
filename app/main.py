@@ -8,7 +8,6 @@ sys.path.insert(0, str(project_root))
 from src.utils.api_utils import (
     get_coordinates_from_city,
     get_gemini_recommendation,
-    get_gemini_recommendation_with_interactions,
     get_location_from_ip,
     get_weather_data,
     map_weather_code,
