@@ -4,7 +4,7 @@ numpy
 ultralytics
 datetime
 pandas
-opencv-python
+opencv-python-headless
 google-genai
 deep-sort-realtime
 --find-links https://download.pytorch.org/whl/cu118
