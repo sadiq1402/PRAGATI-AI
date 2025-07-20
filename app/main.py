@@ -267,7 +267,7 @@ def main():
         st.markdown(
             """
         <div class="main-title">
-            <h1>🌿 Pollination Monitoring System</h1>
+            <h1>🌿 PRAGATI - Pollination Real-time Analysis for Growth in Agriculture using Tracking and Insights</h1>
             <p>Analyze insect and strawberry flower activity in your field and get tailored recommendations.</p>
         </div>
         """,
